@@ -34,7 +34,7 @@ st.markdown(
 )
 
 # === SETTINGS: pas hieronder jouw CSV-bestandspad aan ===
-DATA_PATH = r"C:\Users\robde\OneDrive\Bureaublad\Interfilling\OEE tool\OEE_Dashboard_PowerBI_Finaal.csv"
+DATA_PATH = "OEE_Dashboard_PowerBI_Finaal.csv"
 
 # Check of het bestand wel bestaat
 if not os.path.exists(DATA_PATH):
